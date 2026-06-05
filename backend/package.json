@@ -1,0 +1,27 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "10_queryPlanner.js",
+  "scripts": {
+    "test": "node 1_testConnection.js",
+    "index": "node 7_runIndexing.js",
+    "query": "node 13_runQuery.js",
+    "server": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "@google/genai": "^1.52.0",
+    "@langchain/core": "^1.1.48",
+    "@langchain/google-genai": "^2.1.31",
+    "@pinecone-database/pinecone": "^7.2.0",
+    "cors": "^2.8.6",
+    "dotenv": "^16.6.1",
+    "express": "^5.2.1",
+    "neo4j-driver": "^6.0.1",
+    "pdf-parse": "^1.1.4"
+  }
+}
